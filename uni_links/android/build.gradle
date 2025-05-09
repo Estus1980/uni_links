@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.estus.uni_links
+    namespace 'com.estus.uni_links'
     compileSdkVersion 28
 
     defaultConfig {       
