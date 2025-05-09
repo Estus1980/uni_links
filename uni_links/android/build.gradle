@@ -22,10 +22,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.estus.uni_links
     compileSdkVersion 28
 
-    defaultConfig {
-        namespace 'com.estus.uni_links
+    defaultConfig {       
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
